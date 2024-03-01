@@ -1,0 +1,33 @@
+# This is a comment
+name: GitHub Copilot
+description: AI Programming Assistant
+version: 1.0.0
+features:
+  - name: code generation
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: code explanation
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: unit test generation
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: code fixing
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: workspace scaffolding
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: Jupyter Notebook creation
+    languages_supported: [Python]
+  - name: code search
+    languages_supported: [Python, JavaScript, Java, C++, C#]
+  - name: VS Code extension development
+    languages_supported: [JavaScript, TypeScript]
+  - name: terminal usage
+    languages_supported: [Bash, PowerShell]
+platforms:
+  macOS:
+    - version: Big Sur
+      architecture: x64
+  Windows:
+    - version: 10
+      architecture: x64
+  Linux:
+    - version: Ubuntu 20.04
+      architecture: x64
