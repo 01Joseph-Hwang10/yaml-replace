@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "yaml-replace"
-version = "0.0.1"
+version = "0.1.0"
 description = "Parse yaml files with variables."
 authors = ["01Joseph-Hwang10 <joseph95501@gmail.com>"]
 license = "MIT"
