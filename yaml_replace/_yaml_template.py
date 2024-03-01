@@ -15,6 +15,6 @@ class YAMLTemplate:
         return yaml.safe_load(self.template.render(substitutions))
 
     @staticmethod
-    def load_from_file(file_path: str):
+    def from_file(file_path: str):
         with open(file_path, "r") as file:
             return YAMLTemplate(file.read())

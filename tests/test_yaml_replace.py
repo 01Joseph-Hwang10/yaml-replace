@@ -16,7 +16,7 @@ def test_yaml_template():
 
 def test_yaml_template_from_file():
     file_path = join(dirname(__file__), "fixtures", "dummy.yaml")
-    parsed = YAMLTemplate.load_from_file(file_path).render(
+    parsed = YAMLTemplate.from_file(file_path).render(
         {
             "languages": ["Python", "JavaScript", "Java", "C++", "C#"],
             "version": "1.0.0",
