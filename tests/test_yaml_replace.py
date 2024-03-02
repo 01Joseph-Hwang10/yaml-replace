@@ -1,6 +1,12 @@
 from os.path import join, dirname
 from yaml_replace import YAMLTemplate
-from .fixtures import get_dummy_yaml_string, get_expected_yaml
+from .fixtures import (
+    get_dummy_yaml_string,
+    get_expected_yaml,
+    get_simple_yaml,
+    get_expected_simple_yaml,
+    get_dummy_substitutions,
+)
 
 
 def test_yaml_template():
@@ -23,3 +29,10 @@ def test_yaml_template_from_file():
         }
     )
     assert parsed == get_expected_yaml()
+
+
+def test_yaml_template_none():
+    assert (
+        YAMLTemplate(get_simple_yaml()).render(get_dummy_substitutions())
+        == get_expected_simple_yaml()
+    )
