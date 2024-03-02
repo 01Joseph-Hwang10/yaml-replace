@@ -30,7 +30,7 @@ In your python code, you can use `yaml-replace` to replace the variables in the 
 ```python
 from yaml_replace import YAMLTemplate
 
-YAMLTemplate.load_from_file('some-yaml-file.yaml').render(
+YAMLTemplate.from_file('some-yaml-file.yaml').render(
     {
         'version': '1.0.0',
         'languages': ["Python", "JavaScript", "Java", "C++", "C#"],
