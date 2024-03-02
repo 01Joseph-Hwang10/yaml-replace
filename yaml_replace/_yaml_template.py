@@ -34,12 +34,13 @@ class YAMLTemplate:
         # Format the substitutions
         substitutions = self._format_substitutions(substitutions)
 
-        # Render the template
-        rendered_string = self.template.render(substitutions)
-
-        # Replace "NONE" with "null"
-        rendered_string = rendered_string.replace(quote(NONE), "null")
-        rendered_string = rendered_string.replace(dquote(NONE), "null")
+        # Render the template and replace "NONE" with "null"
+        rendered_string = (
+            self.template.render(substitutions)
+            .replace(quote(NONE), "null")
+            .replace(dquote(NONE), "null")
+            .replace(NONE, "null")
+        )
 
         # Parse the rendered string
         return yaml.safe_load(rendered_string)
