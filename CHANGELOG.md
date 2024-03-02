@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v1.0.0...yaml-replace-v1.1.0) (2024-03-02)
+
+
+### Features
+
+* add None support ([11a3484](https://github.com/01Joseph-Hwang10/yaml-replace/commit/11a3484f4d6e3bb00cb0dc6f7f0fb4046736510c))
+
 ## [1.0.0](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v0.1.0...yaml-replace-v1.0.0) (2024-03-01)
 
 
