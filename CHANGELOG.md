@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v1.1.1...yaml-replace-v1.1.2) (2024-03-04)
+
+
+### Dependencies
+
+* update python version for wider support ([c5b7037](https://github.com/01Joseph-Hwang10/yaml-replace/commit/c5b70378a17c4e2246a820318e37fa509778ef23))
+
 ## [1.1.1](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v1.1.0...yaml-replace-v1.1.1) (2024-03-02)
 
 
