@@ -1,6 +1,6 @@
-def quote(s):
+def quote(s: str):
     return "'" + s + "'"
 
 
-def dquote(s):
+def dquote(s: str):
     return '"' + s + '"'
