@@ -1,5 +1,7 @@
 # yaml-replace
 
+[![PyPI version](https://badge.fury.io/py/yaml-replace.svg)](https://pypi.org/project/yaml-replace) [![Testsuite](https://github.com/01Joseph-Hwang10/yaml-replace/workflows/Test%20and%20Lint/badge.svg)](https://github.com/01Joseph-Hwang10/yaml-replace/actions?query=workflow%3A"Test+and+Lint") [![Python version](https://img.shields.io/pypi/pyversions/yaml-replace.svg)](https://pypi.org/project/yaml-replace)
+
 Parse yaml files with variables. 
 You can substitute variables in yaml files with values you want to inject.
 
