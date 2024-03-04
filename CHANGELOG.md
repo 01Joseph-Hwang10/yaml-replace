@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.3](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v1.1.2...yaml-replace-v1.1.3) (2024-03-04)
+
+
+### Dependencies
+
+* update classifiers up to python 13 ([204fb95](https://github.com/01Joseph-Hwang10/yaml-replace/commit/204fb953ccf0f1fbabd9e150ad7d82fc269cd0fe))
+
+
+### Documentation
+
+* add badges ([80a0d5f](https://github.com/01Joseph-Hwang10/yaml-replace/commit/80a0d5f622ad726476333e7a92e033c81effd2db))
+* add badges ([a98d089](https://github.com/01Joseph-Hwang10/yaml-replace/commit/a98d0895fed99b28c0e96dd4abb2ebc5192b9c79))
+
 ## [1.1.2](https://github.com/01Joseph-Hwang10/yaml-replace/compare/yaml-replace-v1.1.1...yaml-replace-v1.1.2) (2024-03-04)
 
 
